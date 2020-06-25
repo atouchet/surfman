@@ -13,7 +13,7 @@ repository = "https://github.com/servo/surfman"
 build = "build.rs"
 
 [build-dependencies]
-gl_generator = "0.13"
+gl_generator = "0.14"
 cfg_aliases = "0.1.0"
 
 [features]
@@ -53,9 +53,9 @@ optional = true
 
 [dev-dependencies]
 clap = "2"
-gl = "0.13"
+gl = "0.14"
 png = "0.15"
-rand = "0.7"
+rand = "0.7"U
 
 [target.x86_64-apple-darwin.dependencies]
 cgl = "0.3.2"
